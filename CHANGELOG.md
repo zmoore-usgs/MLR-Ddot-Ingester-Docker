@@ -7,4 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Added
 - Dockerfile
-- Dockerfile-DOI
+- gunicorn_config.py
+- docker-compose.yml
+- docker-compose.env
+- wildcard-dev.crt
+- wildcard-dev.csr
+- wildcard-dev.key
+- nginx.conf
+- import_certs.sh

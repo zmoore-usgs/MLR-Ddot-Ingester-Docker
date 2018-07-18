@@ -1,0 +1,11 @@
+---
+  version: '3.5'
+      
+  services:
+    mlr-ddot-ingester:
+      build: .
+      image: mlr-ddot-ingester-service
+      ports:
+        - "443:443"
+      env_file:
+        - docker-compose.env
