@@ -2,9 +2,9 @@
   version: '3.5'
       
   services:
-    mlr-legacy-transformer:
+    mlr-ddot-ingester:
       build: .
-      image: mlr-legacy-transformer-service
+      image: mlr-ddot-ingester-service
       ports:
         - "443:443"
       env_file:
