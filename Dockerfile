@@ -1,4 +1,3 @@
-#FROM cidasdpdasartip.cr.usgs.gov:8447/mlr-python-base-docker:latest
 FROM cidasdpdasartip.cr.usgs.gov:8447/mlr-python-base-docker:latest
 LABEL maintainer="gs-w_eto_eb_federal_employees@usgs.gov"
 
