@@ -8,9 +8,9 @@
       file: ./config/certificates/wildcard-dev.key
       
   services:
-    mlr-ddot-ingester:
+    mlr-ddot-ingester-service:
       build: .
-      image: mlr-ddot-ingester
+      image: mlr-ddot-ingester-service
       secrets:
         - source: ssl_crt
           target: /home/python/certificates/wildcard-ssl.crt
